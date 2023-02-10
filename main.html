@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fmng</title>
+</head>
+<body>
+<script type="module" >
+		const PATH = './build/';
+		const fs = require('fs');
+		const path = require('path');
+		var watch = require('node-watch');
+		watch(PATH, { recursive: true }, (evt, name) => {
+			// console.log('%s changed.', name);
+			if (location) location.reload();
+		});
+		require(path.join(PATH, 'main.js'));
+</script>
+</body>
+</html>

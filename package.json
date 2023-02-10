@@ -1,0 +1,22 @@
+{
+  "name": "fmng",
+  "main": "main.html",
+  "chromium-args": "--mixed-context",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/sanitize-html": "^2.6.2",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "html-entities": "^2.3.3",
+    "isbinaryfile": "^5.0.0",
+    "node-watch": "^0.7.3",
+    "sanitize-html": "^2.7.1"
+  }
+}
